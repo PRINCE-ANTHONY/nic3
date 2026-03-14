@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      background-color: #3498db;
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      color: #777;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 280px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .card .caption {
+      padding: 14px;
+    }
+
+    .card .caption h3 {
+      margin: 0 0 6px 0;
+      color: #3498db;
+      font-size: 17px;
+    }
+
+    .card .caption p {
+      margin: 0;
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #aaa;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🖼️ Things I Love</h1>
+  <p class="subtitle">A small gallery of things that make me happy 😊</p>
+
+  <div class="gallery">
+
+    <!-- Image 1 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400" alt="Mountains"/>
+      <div class="caption">
+        <h3>🏔️ Mountains</h3>
+        <p>I love the peace and beauty of mountains. They remind me how vast the world is.</p>
+      </div>
+    </div>
+
+    <!-- Image 2 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400" alt="Coffee"/>
+      <div class="caption">
+        <h3>☕ Coffee</h3>
+        <p>A warm cup of coffee is the perfect start to any productive coding session.</p>
+      </div>
+    </div>
+
+    <!-- Image 3 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400" alt="Books"/>
+      <div class="caption">
+        <h3>📚 Books</h3>
+        <p>Reading opens new worlds. I enjoy tech, science fiction, and self-growth books.</p>
+      </div>
+    </div>
+
+    <!-- Image 4 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400" alt="Nature"/>
+      <div class="caption">
+        <h3>🌿 Nature</h3>
+        <p>Walking through nature clears my mind and helps me think creatively.</p>
+      </div>
+    </div>
+
+    <!-- Image 5 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400" alt="Coding"/>
+      <div class="caption">
+        <h3>💻 Coding</h3>
+        <p>Building something from scratch with just code is one of the best feelings ever.</p>
+      </div>
+    </div>
+
+    <!-- Image 6 -->
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400" alt="Music"/>
+      <div class="caption">
+        <h3>🎵 Music</h3>
+        <p>Music keeps me focused and motivated while studying or working on projects.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by Alex Sharma &copy; 2025</p>
+  </footer>
+
+</body>
+</html>
